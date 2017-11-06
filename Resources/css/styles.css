@@ -2,6 +2,7 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+  text-align: center;
   background-color: black;
   opacity: 0.9;
 }
@@ -16,6 +17,7 @@ header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 .logo {
@@ -41,4 +43,68 @@ nav span {
 
 a {
   color: inherit;
+}
+
+/* Main content area */
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 69px;
+  width: 1200px
+  margin:auto;
+}
+
+.mission {
+  display: flex;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.mission-Copy {
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+h2 {
+  display: block;
+}
+
+h2 h3 h4 {
+  padding: 10px
+}
+
+.SelectTeas {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.TeaBrands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Tea {
+  padding: 5px;
+}
+
+.Tea span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Tea img {
+  display: block;
+  height: 200px;
+  margin: 10px;
 }
