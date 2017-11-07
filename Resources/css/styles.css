@@ -107,6 +107,7 @@ h2 h3 h4 {
 .Tea img {
   display: block;
   height: 200px;
+  width: 300px;
   margin: 10px;
 }
 
@@ -114,14 +115,12 @@ h2 h3 h4 {
   display: flex;
   flex-direction: column;
   background-image: url("../../resources/images/img-locations-background.jpg");
-  width: 1000px;
-  height: 600px;
+  width: 1200px;
+  min-height: 600px;
   margin-top: 50px;
 }
 
 .Locations {
-  display: flex;
-  justify-content: center;
   width: 100%;
 }
 
@@ -132,10 +131,9 @@ h2 h3 h4 {
 }
 
 .Downtown, .East, .Oakdale {
-  padding: 10px;
-  margin: 5px 10px;
+  margin: 15px 20px;
   background-color: black;
-  flex-basis: 290px;
+  flex-basis: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,4 +142,15 @@ h2 h3 h4 {
 .Downtown span, .East span, .Oakdale span {
   display: block;
   padding: 20px 0px;
+}
+
+.Contact {
+  height: 200px;
+  width: 100%;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+  width: 100%;
 }
