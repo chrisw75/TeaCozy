@@ -5,6 +5,7 @@ body {
   text-align: center;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 
 /* Fixed Header */
@@ -15,7 +16,7 @@ header {
   align-items: center;
   z-index: 1;
   width: 100%;
-  height: 69px;
+  height: 80px;
   border-bottom: 1px solid seashell;
   background-color: black;
 }
@@ -38,7 +39,7 @@ nav {
 
 nav span {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 100px 10px;
 }
 
 a {
@@ -51,7 +52,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 69px;
+  padding-top: 80px;
   width: 1200px
   margin:auto;
 }
@@ -80,9 +81,9 @@ h2 h3 h4 {
 }
 
 .SelectTeas {
-  height: 700px;
-  width: 1000px;
-  margin: auto;
+  min-height: 700px;
+  width: 100%;
+  max-width: 1000px;
   padding-top: 70px;
 }
 
@@ -107,4 +108,40 @@ h2 h3 h4 {
   display: block;
   height: 200px;
   margin: 10px;
+}
+
+.Stores {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1000px;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.Locations {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ThreeStores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Downtown, .East, .Oakdale {
+  padding: 10px;
+  margin: 5px 10px;
+  background-color: black;
+  flex-basis: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Downtown span, .East span, .Oakdale span {
+  display: block;
+  padding: 20px 0px;
 }
